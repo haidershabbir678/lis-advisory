@@ -218,26 +218,4 @@ export const METHODOLOGIES = [
   },
 ];
 
-export const TESTIMONIALS = [
-  {
-    quote: "Most IT vendors treat data as simple bytes on a drive. LIS Advisory treated our knowledge as an interconnected intellectual ecosystem. Their taxonomy work revolutionized how our researchers discover past clinical trials.",
-    author: "Dr. Elena Rostova",
-    title: "Dean of Research & Information Systems",
-    org: "St. Jude Biomedical Consortium",
-    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
-  },
-  {
-    quote: "Setting up Koha and our custom digital archive was effortless. The team's deep command of library science and cataloging standards meant zero data loss during our 20-year catalog migration.",
-    author: "Tariq Mansoor, MLS",
-    title: "Director of Library Services",
-    org: "National Institute of Public Policy",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
-  },
-  {
-    quote: "Our LLM project was failing because raw PDFs were choking the retrieval pipeline. Their information curation and ontology tagging fixed our RAG engine in three weeks flat.",
-    author: "Marcus Vance",
-    title: "VP of Artificial Intelligence",
-    org: "Cognitive Synthetics Inc.",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
-  },
-];
+export const TESTIMONIALS = [];
