@@ -58,9 +58,13 @@ export default function TechnicalPartner() {
             </div>
 
             {/* Right: Partner Branding Badge */}
-            <div className="lg:col-span-4 flex flex-col items-center justify-center p-6 rounded-xl bg-[#0d0d0d] border border-neutral-800 text-center">
-              <div className="w-14 h-14 rounded-2xl bg-[#141414] border border-neutral-700 flex items-center justify-center text-sky-400 mb-3 shadow-lg">
-                <Code2 className="w-7 h-7" />
+            <div className="lg:col-span-4 flex flex-col items-center justify-center p-6 rounded-2xl bg-[#0d0d0d] border border-neutral-800 text-center">
+              <div className="w-16 h-16 rounded-2xl bg-[#141414] border border-neutral-700/80 p-2 flex items-center justify-center mb-3 shadow-xl overflow-hidden group">
+                <img 
+                  src="/astraventa-logo.png" 
+                  alt="AstraVenta Logo" 
+                  className="w-full h-full object-contain rounded-xl group-hover:scale-105 transition-transform" 
+                />
               </div>
               <div className="text-lg font-display font-extrabold text-white tracking-wide">
                 ASTRAVENTA
