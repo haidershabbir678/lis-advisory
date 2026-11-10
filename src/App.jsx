@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import TestimonialStrip from './components/TestimonialStrip';
 import Services from './components/Services';
 import PricingBundles from './components/PricingBundles';
+import TechnicalPartner from './components/TechnicalPartner';
 import InteractiveComparison from './components/InteractiveComparison';
 import KnowledgeCalculator from './components/KnowledgeCalculator';
 import WhyLISAdvantage from './components/WhyLISAdvantage';
@@ -47,7 +48,7 @@ export default function App() {
         {/* 1. Hero Section with Live Architecture Console */}
         <Hero onOpenConsultation={handleOpenConsultation} />
 
-        {/* 2. Elevated Client Feedback & Testimonial Strip */}
+        {/* 2. Elevated Real-time Client Feedback */}
         <TestimonialStrip />
 
         {/* 3. Core Practice Areas / Services */}
@@ -56,26 +57,29 @@ export default function App() {
         {/* 4. Turnkey Bundles & Pricing with WhatsApp Order */}
         <PricingBundles onOpenConsultation={handleOpenConsultation} />
 
-        {/* 5. Paradigm Simulator (Data Swamp vs Curated Architecture) */}
+        {/* 5. Strategic Collaboration with AstraVenta (Backend & Technical Partner) */}
+        <TechnicalPartner />
+
+        {/* 6. Paradigm Simulator (Data Swamp vs Curated Architecture) */}
         <InteractiveComparison />
 
-        {/* 6. Information Yield Scope Calculator */}
+        {/* 7. Information Yield Scope Calculator */}
         <KnowledgeCalculator onOpenConsultation={handleOpenConsultation} />
 
-        {/* 7. Information Science Disciplinary Moat */}
+        {/* 8. Information Science Disciplinary Moat */}
         <WhyLISAdvantage />
 
-        {/* 8. Case Studies (Click to inspect deep-dive) */}
+        {/* 9. Case Studies (Click to inspect deep-dive) */}
         <CaseStudies onSelectCaseStudy={handleSelectCaseStudy} />
 
-        {/* 9. Interactive Practice FAQ on First Page */}
+        {/* 10. Interactive Practice FAQ on First Page */}
         <FAQ onOpenConsultation={handleOpenConsultation} />
 
-        {/* 10. Standards & Archival Protocols */}
+        {/* 11. Standards & Archival Protocols */}
         <Methodology />
       </main>
 
-      {/* Footer with Lucide Social Links & WhatsApp */}
+      {/* Footer with LinkedIn, Email, WhatsApp & Technical Partner */}
       <Footer onOpenConsultation={handleOpenConsultation} />
 
       {/* Floating Persistent WhatsApp Quick-Action */}
